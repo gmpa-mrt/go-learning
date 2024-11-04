@@ -1,7 +1,8 @@
 package main
 
-import "golang.org/x/tour/pic"
-
 func main() {
-	pic.Show(Pic)
+	//pic.Show(Pic)
+
+	WordCount("I am learning Go!")
+	WordCount("I ate a donut. Then I ate another donut.")
 }
