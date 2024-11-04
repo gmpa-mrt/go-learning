@@ -1,4 +1,4 @@
-package main
+package Pic
 
 func Pic(dx, dy int) [][]uint8 {
 	array := make([][]uint8, dy)
